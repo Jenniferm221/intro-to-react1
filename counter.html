@@ -12,6 +12,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.min.js"></script>>
 
     <script type="text/babel">
+
       class Counter extends React.Component {
           constructor(props){
               super(props);
@@ -32,6 +33,7 @@
                   number: Math.max(1, this.state.number - 1)
               })
           }
+
         render() {
           return (
             <div>
@@ -47,6 +49,7 @@
           );
         }
       }
+
       const info = {
         date: new Date(),
         image: 'https://avatars0.githubusercontent.com/u/1441485?v=4&s=280',
@@ -64,4 +67,3 @@
     </script>
   </body>
 </html>
-
